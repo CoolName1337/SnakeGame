@@ -54,7 +54,7 @@ namespace snake
                     {
                         Vector vect = new(j, i);
                         if (Snake.Tail.Contains(vect)) RendImage += "██";
-                        else if (Snake.ApplePosition.Equals(vect)) RendImage += "##";
+                        else if (Snake.ApplePosition.Equals(vect)) RendImage += "▓▓";
                         else RendImage += "  ";
                     }
                     RendImage += "░░\n";
